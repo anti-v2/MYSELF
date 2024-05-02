@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+html,body{
+    height: 100%;
+    perspective: 800px;
+    width: 100%;
+}
+
+#cursor{
+    background-color: rgb(135, 135, 8);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    filter: blur(10px);
+}
+
+#nav{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 30px;
+    gap: 30px;
+    position: fixed;
+    z-index: 99;
+    
+}
+#nav img{
+    height: 75px;
+    border-radius: 510%;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position:fixed;
+    z-index: -1;
+}
+#main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+#page1 {
+height: 100vh;
+width: 100%;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: 1center;
+flex-direction: column;
+text-align: center;
+z-index: 10;
+
+}
+
+#page1 h1{
+    font-size: 25px;
+    font-weight: 1000;
+    position: relative;
+   
+}
+#about-us {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px;
+    z-index: 10;
+
+}
+#about-us img{
+    height: 400px;
+    width: 400px;
+    border-radius:20px ;
+    
+   
+}
+    
+   #about-me{
+    text-align: center;
+    width: 50%;
+   }
+   #about-me h3{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 40px;
+   }
+#about-me p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+}
+#projects-style h3{
+    font-size: 50px;
+    font-weight: 900;
+}
+#projects{
+    height: 60vh;
+    display: flex;
+    justify-content:center;
+   align-items: center;
+   gap:70px;
+  
+   
+}
+
+.card{
+    height: 80%;
+    width: 25%;
+    border-radius:20px ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 10;
+    overflow:hidden;
+    transition: all ease 0.6s;
+
+}
+#card1{
+background-size:cover;
+    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczM69_Ms8iCE8AagGB865OFmyfvx28B-Ln7VXsdLf7PnDOIxDlxtUUh6MTJrVHiL0XQjTSmVj_5OirUd3w1y4Saji0yV1BpbGTVP4a6XqbOX2Y9UYUZgoJPbu4FMV-WhJePSG5qxczhtXJCL6MYN84jnUtS5dBWzqbSUmd2FdU3djLEpkEdXDy6N4w0aAQSz331KCYtBdlzpWuvm8hSDDw_kNyPysNCRR2uLLhNR6QRk77zWQf-0d4Gp7joUGtWDXP1FKkE0wVPJuJzi9w7YTr_vsWDA4s7_2HZ1rBJOxSjZywcVCAxeD__T36pqiM_CdSLSwuwHcVmRZGapI4vStCZoknrop0bWdJ02sCwF5LtbYI_foxjS6JzckIGV4MoCjWCScFlyQU26tRntkOLzPNoS03_sbwg-AuXE9Sv5sI80iXmNG9LgdsCxTTbjt6Zt966jCiAToUwGXSkhLtpMDKWOXHp4CUGWszUrmMcoWP5phSD9Lqdw8G_nEwfmGUKqb5W_DK2TmVg382OLrALFlvRxexf-XWSyERh1PaTFJl9yMxYNXPTEE0u01wQAenk_WVsSb8x0zbD-BLzfyDgYJg41LPAr_lVmgmgFaZSYsqc8lep5AW5Mpok_HLgCm47xtni5xZRZGgznP0IB_kq3ymZDA0cfFaoPxRvO4vfMNlnN4BSD-ovZ5gg93phMrFvKUJQ06v5_iOk4Mwz8kASL8UiRiaJ2hfEzLyFRk-R1pG_O-VpTZR1fNDiMOD7-OH21VQ-3SUvJQLHMtaZC5v4cMChkBULbzqr-etq1Ys98jZYB_MMw-RwZqzMBlqi-k7JSP8YpwGTRDGL7D8kD70zgJqDDj4TQsC488dqxAYmaONlCD8HBy5QN2MiWv1HAH5K3h3afEM4TKHA-j0eRKfbSzkPXqij32_2qrhnDvBtPXR-_WB4E_2XnNT9ZlMFKoOu3wd5bdVOAvlEOIQsB25DPj-IjgMWKMX89zQ3p2NT2JoH3W8IaxgArTcVm1zcxVgaGy623r1m9Vec5zwAiOHVjikf0AVSZyGyOjbRs3vY=w1813-h943-s-no?authuser=3);
+}
+#card2{
+    background-size: cover;
+    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczOSXl0TrrXLunQtsUGSO13D5ZHHS611hFUh2oftepo1uJ3m9fRdjppVlBiBV8uRns1J8tXDy8LShzHUN_9rswK4RMo_oEeVbjNaxXooILTtmPi6nGrDzq1ojCZWullV_cENyStStIIFh1yYgaXDyqtZUQmFNMIAdoZkXQhdTO0dA8EXhOhu8RmB1atICMIudpzJIoWaJAhl-_K5byQRloka2dt1PM5fqfAHLpNWAP5mq4AyIJ3JXC_hOPI722fYB3bn2iuGkMkAk2DIRHp-3aep-t855f1ot_CodroAtYaOBME4f9Yogv12dW0TwtIuhNh528CEIyPYNIxfz2tBN56gjqnEDAr3ZfARGIeb59Nt4iV_7bxCPhZ9Ua0LVfKjCJlQTN4o6cFLGbmme98I6_MV9FuVGNOy5OZfgSACl5zupmWaWS17-VGuuAPoQgHrvQgvqGH_LRlBV_4u9DNTEVksp0EZYsLIcTZ9Yya4CjUOHgwJumto0qShqwuNE-JUsS-xaa0HdZD_Ay7g5p_g4gndLug7k0D10-MT-GnSx_pUNiTKVtvprzR1S_SzcwLgIcpx59Ak5zG63jVB041j05fgKZh1VAboMCatmxTPgccHwUiaaflce0DGG04zf0w_CiNLwWdn_6eubtypLrB7kwrtADhq5EhcsUjJI-5uXSDvVDhQPDshGIhS7HM9RRodJP9bAIUnIeOPxXIlNZoeOpon8R4oBSicEsavVfPYmRfic3avfjA7gnl4jy_KEe8tKm-7-4LD9JX9Q_TzJLpxYMW5WDGSegIGFDH3LCkljLfWBNjVsbXogQQq6Vg6hbtLDQsPvP7h50TRYWaJ9HpA4jKdtOL0_JW7dySfqlm_YIKUcbrf6XkGvdOdOQHyUrUi1wrfTqK-5AYjSgIgChEJV_LE18kFJ_L2pQWbU29FvpuyCx1NE1gB_rxzWwOXWN7NpgO3OZnSuDrpWSPc5BAsq4EAICWhRWxLHyIf-o8gRbHddGE5ifxx5jqh_jT81qS6L52KYCkP3vSbGWhbk8T-gyM-CX2LExu-BmycCRA=w1676-h943-s-no?authuser=3);
+}
+#card3{
+    background-size: cover;
+    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczNUs5Wih74xG7nut3hYTsM3o5acsybI9gGgpDztJhj45N7yOz9Uf9KoozFEBfINTTSmjYx-E8wweUyIoa6BGtjbx7viWT3YlkJZICRtDRuLKnAsGmj7JYdowq0F6FHYZP0gXursp7JhwTMpXc5y9PXEO8uTbSIEDY-70AbyOnPuFpGORsTb9vaEYFP8Mtr3aHMxwwx2mDyl46Eo1sMA4z3D3mUONRkQ93-Rhagx2017wST-LvQBzKTFQffk0F66fYwvkqnlt_ykoF5w2B2ZB42Pdl18-a-VdCjB_OuWUphDB0IAbjGMQVKgBiR5ULUbH2J5qeT712ntYEB-ssuEAAmLmb2_Wfji2DPZHg6o07Zzml-SSthKdMZ1dLdgkpz_c_xdqDQEKyo7GlzOUckGOgH_z1nL19selW2Jb6jkXXYr8vfLDEQDxQeZzsnvJtef4BjFAF6-APVqrcXKV-fTSvrZVhS5wePX1o4r1GhWgxNODgcNcJS5704U8jIJIwhWfhIX-XFYYFuIHidoh77A4Y1nU-I8rVudcPA1gUJvg7VpN17gAIniA9BpOIZ31PEpHiWII8cNKrfLggLy7iNGZnbFooFPXPMhp4Vigr_dDMQwn1tz7yLvZgJAafoSkXzPmNq9VukS2v434fRS4o3e7WN3FEeJhNNjsryA_IhQRv1OH4yiDXThs8dCUslDvq-2_06oUMZiUXRp-0G2vGmHabHDFdejzxxe7GOMgMNgEmNw0yOKzZit9nNbvdC_pP8utG7BvpEQYM8uMHxiHsvU2gsyLdPHxJ1-k3EGOakEJnwwAIR2d0mFHgsW2CD4yfByeUmi6kdbebKq0RUWblxrye7GCwAzHGaJTXDTMdiouQDCMEWcFJzsnzowCZKnHX0k4XAVAZTUPFTwRO1Vgq0Uljs1mYwdiamDqDHLVNYPsDvXUlYIoNCUdI92mhgU4erAVs5QlaQRP8LJFUsw130DsYzceCbnVuBPAb309pVI8Vy_XR5mmieEp-d_7uXS2XAweyNQZH-skO0f48QwvlnVvhTgAFftUTrAoMiMLbU=w1875-h939-s-no?authuser=3);
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(138, 66, 139);
+    padding: 40px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: all ease 0.6s;
+    
+
+}
+.overlay h4{
+    color: black;
+    font-size: 28px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 50px;
+}
+.overlay p{
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+}
+.card:hover .overlay{
+    opacity: 1;
+}
+.card:hover{
+    transform: rotate3d(-1,1,0,20deg);
+}
+#contact img{
+    height: 600px;
+    width: 600px;
+   
+    
+}
+#contact {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px;
+    z-index: 10;
+}
+
+
+#contact img{
+    height: 400px;
+    width: 400px;
+    border-radius:20px ;
+    
+   
+}
+#contact h3{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 40px;
+   }
+#contact p,a{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    white-space: nowrap;
+}
+#contact-me{
+    text-align: center;
+    width: 50%;
+}
+
